@@ -1,0 +1,19 @@
+{
+  "name": "lamoda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./tests",
+    "lint:fix": "eslint ./tests --fix" 
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.1",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}
