@@ -1,0 +1,119 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "attributes": {
+        "type": "object",
+        "properties": {
+          "has_tryon_items": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "has_tryon_items"
+        ]
+      },
+      "cart_by_itl_category": {
+        "type": "null"
+      },
+      "customer_notification": {
+        "type": "null"
+      },
+      "customs_fee": {
+        "type": "null"
+      },
+      "discounts": {
+        "type": "object",
+        "properties": {
+          "coupon": {
+            "type": "string"
+          },
+          "global": {
+            "type": "string"
+          },
+          "loyalty": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "total": {
+            "type": "string"
+          },
+          "total_percent": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "coupon",
+          "global",
+          "loyalty",
+          "site",
+          "total",
+          "total_percent"
+        ]
+      },
+      "discounts_detalization": {
+        "type": "null"
+      },
+      "gift_certificate_notification": {
+        "type": "null"
+      },
+      "installments": {
+        "type": "null"
+      },
+      "items_included_in_order": {
+        "type": "array",
+        "items": {}
+      },
+      "loyalty_info": {
+        "type": "null"
+      },
+      "package_errors": {
+        "type": "array",
+        "items": {}
+      },
+      "packages": {
+        "type": "array",
+        "items": {}
+      },
+      "premium_service_promo": {
+        "type": "null"
+      },
+      "premium_status": {
+        "type": "null"
+      },
+      "summary": {
+        "type": "object"
+      },
+      "total_discount": {
+        "type": "integer"
+      },
+      "total_price": {
+        "type": "integer"
+      },
+      "total_quantity": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "attributes",
+      "cart_by_itl_category",
+      "customer_notification",
+      "customs_fee",
+      "discounts",
+      "discounts_detalization",
+      "gift_certificate_notification",
+      "installments",
+      "items_included_in_order",
+      "loyalty_info",
+      "package_errors",
+      "packages",
+      "premium_service_promo",
+      "premium_status",
+      "summary",
+      "total_discount",
+      "total_price",
+      "total_quantity"
+    ]
+  }
